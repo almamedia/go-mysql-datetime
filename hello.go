@@ -8,5 +8,6 @@ import (
 
 func main() {
 	fmt.Println(hello.Hello())
-	fmt.Println("Susan")
+	fmt.Println(hello.HelloString("Susan"))
+	fmt.Println(hello.Bonjour("Susan"))
 }
